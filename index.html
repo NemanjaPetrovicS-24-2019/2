@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th class="ime">Ime</th>
+                <th class="prezime">Prezime</th>
+                <th class="jmbg">JMBG</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td class="ime">Marko</td>
+                <td class="prezime">Marković</td>
+                <td class="jmbg">13059952231123</td>
+            </tr>
+            <tr>
+                <td class="ime" id="boja">Darko</td>
+                <td class="prezime" id="boja">Petrović</td>
+                <td class="jmbg" id="boja">22079952231123</td>
+            </tr>
+            <tr>
+                <td class="ime">Stefan</td>
+                <td class="prezime">Miličić</td>
+                <td class="jmbg">15119832231423</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="forma">
+        <form action="" method="POST">
+            <label for="ime">Ime</label>
+            <input type="text" name="ime">
+        <br>
+            <label for="prezime">Prezime</label>
+            <input type="text" name="prezime">
+        <br>
+            <label for="jmbg">JMBG</label>
+            <input type="number" name="jmbg">
+        <br>
+            <input type="submit" class="potvrdi" value="Potvrdi">   
+    </form>
+    </div>
+</body>
+</html>
